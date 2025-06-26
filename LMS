@@ -1,0 +1,21 @@
+class Library:
+    def __init__(self,Author,name):
+        self.Author=Author
+        self.name=name
+
+    def getname(self):
+        return self.name
+
+    def setname(self,name):
+        self.name=name
+        self.Author=Author
+
+
+obj1 = Library("apollo","katha")
+print(obj1.getname())
+obj2=Library("wings of fire","rabindranath tagore")
+print(obj2.getname())
+
+
+
+    
