@@ -1,0 +1,35 @@
+class Employe:
+    def __init__(self,name,id,position,salary):
+        self.name=name
+        self.id=id
+        self.position=position
+        self.salary=salary
+    def setsalary(self,salary):
+            self.salary=salary
+
+    def setname(self,name):
+        self.name=name            
+
+    def getname(self):
+        return self.name
+    
+    def getid(self):
+        return self.id
+    
+    def getposition(self):
+        return self.position
+
+    def getsalary(self):
+        return self.salary
+    
+       
+     
+    def display(self):
+        print ("name=",self.name)
+        print ("id=",self.id)
+        print ("position=",self.position)
+        print ("salary=",self.salary)
+
+obj1 = Employe("Bharti",345,"Software Engineer",780000)
+obj1.display() 
+
