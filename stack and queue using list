@@ -1,0 +1,31 @@
+#creating stacks using lists
+stack=[]
+stack.append("Swati")
+stack.append("Bharti")
+stack.append("kashi")
+stack.append("saba")
+print(stack)
+stack.pop()
+print(stack)
+stack.pop()
+print(stack)
+#creating function for the peek operation
+
+o=len(stack)
+print(stack[o-1])
+#creating queue using lists
+
+queue=[]
+queue.append("bharti")
+print(queue)
+queue.append("kashi")
+queue.append("saba")
+queue.pop()
+print(queue)
+print(queue[0])
+
+
+
+
+
+
